@@ -9,7 +9,7 @@ export default function Sideelements({link,pic}) {
     const [active, setActive] = useState(false);
     console.log(router.pathname)
     return (
-        <div >
+        <div className='flex justify-end'>
         <Link path href={link} >
           <div className='bg-300 w-12 h-12 flex  items-center  text-center rounded-full'>
             {pic}

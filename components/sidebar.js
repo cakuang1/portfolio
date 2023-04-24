@@ -28,7 +28,7 @@ export default function Sidebar() {
 
 
     return (
-      <div className="flex text-3xl font-bold underline fixed bottom-0 bg-200 w-full h-14 items-center justify-around">
+      <div className="text-3xl font-bold h-0 sticky top-0 bg-opacity-0  items-center ">
           <Sideelements link = {''} pic = {about}/>
           <Sideelements link = {''} pic = {school}/>
           <Sideelements link = {''} pic = {port}/>
