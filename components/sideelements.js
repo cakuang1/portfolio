@@ -11,7 +11,7 @@ export default function Sideelements({link,pic}) {
     return (
         <div className='flex justify-end'>
         <Link path href={link} >
-          <div className='bg-300 w-12 h-12 flex  items-center  text-center rounded-full'>
+          <div className='bg-300 w-14  h-14 mx-10 mb-5 flex  items-center  text-center rounded-full'>
             {pic}
           </div>
         </Link>

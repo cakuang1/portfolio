@@ -7,7 +7,16 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {typing: "typing 2s steps(14)"
+    },
+      keyframes: {typing: {
+        from: { width: "0" },
+        to: { width: "14ch" }
+      }},
+
+
+    },
     colors: {
       'transparent': 'transparent',
       'current': 'currentColor',
@@ -23,8 +32,9 @@ module.exports = {
         '700': '#4a5568',
         '800': '#2d3748',
         '900': '#1a202c',
-      }
-    }
-  },
+      },
+      'blue':'#002e71'
+    },
   plugins: [],
+}
 }
