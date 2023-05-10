@@ -1,45 +1,26 @@
 
 
+import pipeline from '../public/pipeline.svg'
+
+import gh from '../public/gh.png'
+import Image from 'next/image'
+
 export default function Projects() {
     return (
       <div className="">
-            <h1>MY <span className="text-300">PROJECTS</span></h1>
-            <div className="Projects done ">
-              <h1>Course Projects</h1>
-              <ul>
-                <li className="">The Game of Hog (Java)</li>
-                <li>Autocorrected Typing Software (Java)</li>
-                <li>Ants Vs. SomeBees (Java)</li>
-                <li>Double Ended Queue (Java)</li>
-                <li>Gitlet(Java)</li>
-                <li>Build Your own World(Java)</li>
-                <li>Data Transformation(Java)</li>
-                <li>Build Your own World(Java)</li>
-                <li>Traffic Model (Python (Pandas,SKlearn,Feature Engineering))</li>
-                <li>Mongo (Non-Relational Databases(Mongodb),pyMongo,MQL,JSON)</li>
-                <li>Data Transformation(SQL,Interpolation,Entity Resolution)</li>
-                <li>Query Performance (SQL,Query Optimization,Indexes)</li>
-                <li>Mongo (Non-Relational Databases(Mongodb),pyMongo,MQL,JSON)</li>
-                <li>Penguins (Python,NP-Hard,Efficiency)</li>
-                <li>Research Questions(Python,)</li>
+          <div className=" mx-auto w-1/2">
+              <div className='pt-4 border-t border-b border-2'>
+                <div className='flex'>
+              <a href=''><h2 className="font-bold text-3xl text-blue hover:underline pb-2 "  >dds3tosf</h2> </a>
+              <Image src={gh}/>
+              </div>  
+              <div className='border border-blue border-2'><Image src={pipeline}/></div>
+              <h3>Python , AWS S3 , Snowflake,</h3>
+              <p>A manual step-by-step data pipeline that extracts data files from a s3 bucket, transforms the data using pandas, and loads it into a snowflake table.  Click on the title for an in-depth
+                READ.ME.
+                 </p>
 
-              </ul>
-              <div className="">Code for Course Projects available upon request</div>
-            </div>
-          <div className="">
-            <h1>Independent Projects</h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li>  </li>
-
-            </ul>
-
-
+              </div>
 
             </div>                  
 

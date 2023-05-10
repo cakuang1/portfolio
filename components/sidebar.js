@@ -27,11 +27,7 @@ let school = <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24
 export default function Sidebar() {
     return (
       <div className=''>
-        <div className="text-3xl font-bold flex  fixed bottom-1 w-full  items-center justify-center">
-            <Sideelements link = {''} pic = {about}/>
-            <Sideelements link = {''} pic = {school}/>
-            <Sideelements link = {''} pic = {port}/>
-        </div>
+
       </div>
     
 
